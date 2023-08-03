@@ -12,7 +12,7 @@ function sayHello(input){
         case "Pat":
             return "Hello, " + input;
         default:
-            return "";
+            return "Hello, World";
     }
     //return "Hello, " + input;
 }
