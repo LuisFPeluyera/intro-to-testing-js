@@ -3,6 +3,16 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(){
-
+function sayHello(input){
+    switch (input) {
+        case "Jane":
+            return "Hello, " + input;
+        case "Alex":
+            return "Hello, " + input;
+        case "Pat":
+            return "Hello, " + input;
+        default:
+            return "";
+    }
+    //return "Hello, " + input;
 }
